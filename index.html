@@ -12,12 +12,34 @@
         </div>
     </header>
 
-    <section id="about" class="container">
+   <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'About')">About Me</button>
+        <button class="tablinks" onclick="openTab(event, 'Projects')">Projects</button>
+        <button class="tablinks" onclick="openTab(event, 'Music')">Music</button>
+    </div>
+
+    <section id="About" class="tabcontent container">
         <h2>About Me</h2>
         <p>
             Hello! I'm Jacob, a passionate hardware enthusiast with skills in software development. 
             I specialize in Python, C, and C++, and have experience with circuit troubleshooting, schematics, 
             and lab equipment. I'm eager to apply my skills in a dynamic environment and contribute to innovative projects.
+        </p>
+    </section>
+
+    <section id="Projects" class="tabcontent container" style="display:none;">
+        <h2>Projects</h2>
+        <p>
+            Here are some of my favorite projects that I've worked on...
+            <!-- Details of Jacob's projects here -->
+        </p>
+    </section>
+
+    <section id="Music" class="tabcontent container" style="display:none;">
+        <h2>Music</h2>
+        <p>
+            Music is another passion of mine. Here's some of the music I've created...
+            <!-- Information about Jacob's music creations here -->
         </p>
     </section>
 
