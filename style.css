@@ -1,47 +1,70 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
     color: #333;
     background-color: #f4f4f4;
+    line-height: 1.6;
 }
 
-header, footer {
-    background-color: #333;
-    color: white;
-    text-align: center;
-    padding: 1em 0;
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
 }
 
 header h1, header p {
+    padding: 0;
     margin: 0;
 }
 
+header p {
+    font-style: italic;
+}
+
 section {
-    margin: 20px;
-    padding: 20px;
-    background-color: white;
+    padding: 20px 0;
+    background: #fff;
 }
 
 section h2 {
-    color: #333;
+    color: #35424a;
 }
 
-nav {
-    background: #444;
-    color: white;
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
     text-align: center;
-    padding: 10px 0;
 }
 
-nav a {
-    color: white;
-    margin: 0 10px;
-    text-decoration: none;
+.skill {
+    background: #e8491d;
+    color: #fff;
+    padding: 10px;
+    margin: 10px 0;
 }
 
 footer {
-    position: absolute;
+    background: #35424a;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
     bottom: 0;
     width: 100%;
+}
+
+@media only screen and (max-width: 700px) {
+    .skills-grid {
+        grid-template-columns: 1fr;
+    }
 }
