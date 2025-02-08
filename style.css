@@ -29,14 +29,14 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #BD0362;
+    color: #FF7F50;
 }
 
 header p {
     margin: 0;
     font-size: 1.2em;
     font-style: italic;
-    color: #BD0362;
+    color: #FF7F50;
 }
 
 section {
