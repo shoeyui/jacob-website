@@ -14,11 +14,11 @@ body {
 }
 
 header {
-    background-color: #3D550C;
+    background-color: #003B73;
     color: #ffffff;
     padding: 30px 0;
     text-align: center;
-    height: 300px;
+    height: 200px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -27,14 +27,14 @@ header {
 header h1 {
     margin: 0;
     font-size: 2.5em;
-    color: #ECF87F;
+    color: #BFD7ED;
 }
 
 header p {
     margin: 0;
     font-size: 1.2em;
     font-style: italic;
-    color: #81B622;
+    color: #60A3D9;
 }
 
 section {
