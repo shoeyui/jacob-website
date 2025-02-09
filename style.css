@@ -84,7 +84,6 @@ footer {
 .tab {
     overflow: hidden;
     background-color: #695e93;
-    color:#beafc2;
 }
 
 .tab button {
@@ -96,6 +95,7 @@ footer {
     padding: 14px 16px;
     transition: 0.3s;
     font-size: 17px;
+    color:#beafc2;
 }
 
 .tab button:hover {
