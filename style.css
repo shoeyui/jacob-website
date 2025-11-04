@@ -99,7 +99,7 @@ footer {
     color:#beafc2;
 }
 
-sl-tab::part(base):hover {
+sl-tab::part(base) {
   color: #281c2d; 
 }
 
@@ -109,6 +109,10 @@ sl-tab::part(base):hover {
 
 sl-tab::part(base):active {
   color: #281c2d; 
+}
+
+sl-tab::part(label){
+    color: #281c2d;
 }
 
 
