@@ -99,7 +99,7 @@ footer {
     color:#beafc2;
 }
 
-sl-tab slot {
+.sl-tab slot {
   --indicator-color: #281c2d;
   --track-color: #8155ba;
 }
