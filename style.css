@@ -102,7 +102,7 @@ footer {
 sl-tab-group {
   --indicator-color: #281c2d;
   --track-color: #8155ba;
-  --sl-overlay-background-color:282 23.3% 14.3%
+  --sl-overlay-background-color:hsl(282 23.3% 14.3%)
 }
 
 .tab button:hover {
