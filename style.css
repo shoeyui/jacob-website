@@ -103,9 +103,14 @@ sl-tab::part(base):hover {
   color: #281c2d; 
 }
 
+sl-tab::part(base):hover {
+  color: #281c2d; 
+}
+
 sl-tab::part(base):active {
   color: #281c2d; 
 }
+
 
 sl-tab-group {
   --indicator-color: #281c2d;
