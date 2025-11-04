@@ -16,6 +16,10 @@
     </header>
 
    <div class="tab">
+       <sl-tab-group activation="manual">
+          <sl-tab slot="nav" panel="general"onclick="openTab(event, 'About')">About Me</sl-tab>
+          <sl-tab slot="nav" panel="custom">Custom</sl-tab>
+          <sl-tab slot="nav" panel="advanced">Advanced</sl-tab>
         <sl-button>About Me</sl-button>
         <button class="tablinks" onclick="openTab(event, 'About')">About Me</button>
         <button class="tablinks" onclick="openTab(event, 'YouTube')">YouTube</button>
