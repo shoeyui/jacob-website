@@ -99,6 +99,10 @@ footer {
     color:#beafc2;
 }
 
+sl-tab::part(base):hover {
+  color: #281c2d; 
+}
+
 sl-tab-group {
   --indicator-color: #281c2d;
   --track-color: #8155ba;
