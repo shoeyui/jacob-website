@@ -299,6 +299,8 @@ button[type="submit"] {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     margin-bottom: 40px;
+	position: relative;
+  	top: 30px;
     align-items: center;
 }
 .about-text {
@@ -729,3 +731,4 @@ button[type="submit"] {
     }
 
 }
+
