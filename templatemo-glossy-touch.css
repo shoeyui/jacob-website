@@ -301,7 +301,7 @@ button[type="submit"] {
     margin-bottom: 40px;
 	position: relative;
   	top: 30px;
-    align-items: center;
+    align-items: top;
 }
 .about-text {
     padding: 40px;
@@ -733,5 +733,6 @@ button[type="submit"] {
     }
 
 }
+
 
 
