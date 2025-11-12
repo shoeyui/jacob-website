@@ -428,15 +428,16 @@ button[type="submit"] {
 }
 /* Services page styles */
 .services-grid {
-    display: grid;
+    display: block;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     gap: 30px;
     margin-bottom: 40px;
 }
 .service-card {
-    padding: 40px 30px;
+    padding: 10px 10px;
     color: white;
     text-align: left;
+	margin-bottom: 20px;
 }
 .service-header {
     display: flex;
@@ -733,6 +734,7 @@ button[type="submit"] {
     }
 
 }
+
 
 
 
