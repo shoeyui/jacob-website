@@ -140,7 +140,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 30px 45px;
+    padding: 40px 45px;
 }
 .logo {
     font-size: 32px;
@@ -171,6 +171,9 @@ nav {
 }
 .nav-links {
     display: flex;
+	position: fixed;
+    left: 5px;
+    top: 15px;
     gap: 30px;
 }
 .nav-links a {
@@ -734,6 +737,7 @@ button[type="submit"] {
     }
 
 }
+
 
 
 
