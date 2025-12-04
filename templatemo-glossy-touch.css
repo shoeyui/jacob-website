@@ -334,6 +334,19 @@ button[type="submit"] {
     padding: 50px 50px;
     color: white;
 }
+
+  .yt-audio-card {
+    position: relative;
+    width: 320px;   /* change this to your preferred size */
+    max-width: 100%;
+    cursor: pointer;
+  }
+
+  .yt-cover {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
   .yt-play-btn {
     position: absolute;
     inset: 0;
@@ -758,6 +771,7 @@ button[type="submit"] {
     }
 
 }
+
 
 
 
