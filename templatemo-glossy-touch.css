@@ -331,9 +331,30 @@ button[type="submit"] {
     text-align: center;
 	position: relative;
   	top: 30px;
-    padding: 50px 30px;
+    padding: 50px 50px;
     color: white;
 }
+  .yt-play-btn {
+    position: absolute;
+    inset: 0;
+    margin: auto;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: none;
+    font-size: 24px;
+    background: rgba(0, 0, 0, 0.6);
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+
+  .yt-play-btn:hover {
+    background: rgba(0, 0, 0, 0.75);
+  }
+
 .stat-number {
     font-size: 3rem;
     font-weight: bold;
@@ -737,6 +758,7 @@ button[type="submit"] {
     }
 
 }
+
 
 
 
